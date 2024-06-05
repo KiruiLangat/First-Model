@@ -1,6 +1,6 @@
 # My First Model
 This Python script uses the Decision Tree Regressor model from the Scikit-learn library to predict house prices. 
-The model is trained on a dataset of house prices from Melbourne.
+The model is trained on a dataset of Mobile Price Classification.
 
 ### Libraries Used
 - pandas: For data manipulation and analysis.
