@@ -11,12 +11,14 @@ mobile_file_path = 'C:/Users/sms20/Machine Learning/First-Model/train.csv'
 home_data = pd.read_csv(mobile_file_path)
 
 print(home_data.columns)
+print(home_data.head())
+print(home_data.price_range)
 
 # Create target object and call it y
 y = home_data.price_range
 
 # # Create X
-features = ['int_memory', 'ram', 'touch_screen', 'm_dep', 'sc_h', 'sc_w', 'wifi']
+features = ['battery_power', 'dual_sim', 'four_g', 'three_g', 'touch_screen', 'int_memory', 'wifi']
 
 X = home_data[features]
 
